@@ -1,7 +1,8 @@
 import mongoose from 'mongoose';
 import { Joke } from '../models/random.model.js';
+import { MONGO_URL } from './constants.js';
 
-mongoose.connect('mongodb://localhost:27017/chuck');
+mongoose.connect(MONGO_URL);
 
 const jokes = [
   {
