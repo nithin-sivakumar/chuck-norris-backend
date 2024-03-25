@@ -1,0 +1,24 @@
+{
+  "name": "chuck-norris",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js",
+    "seed": "node src/robot/animals.seed.js && node src/robot/career.seed.js && node src/robot/celebrity.seed.js && node src/robot/dev.seed.js && node src/robot/fashion.seed.js && node src/robot/food.seed.js && node src/robot/history.seed.js && node src/robot/money.seed.js && node src/robot/movie.seed.js && node src/robot/music.seed.js && node src/robot/science.seed.js && node src/robot/sport.seed.js && node src/robot/travel.seed.js"
+  },
+  "keywords": [],
+  "author": "Nithin Sivakumar",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.1",
+    "mongoose": "^8.2.3"
+  },
+  "devDependencies": {
+    "dotenv": "^16.4.5",
+    "nodemon": "^3.1.0"
+  }
+}
