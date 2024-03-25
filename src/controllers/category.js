@@ -23,19 +23,19 @@ export async function getByCategory(req, res) {
 
 export async function getAllCategories(req, res) {
   const categories = [
-    'animal',
-    'career',
-    'celebrity',
-    'dev',
-    'fashion',
-    'food',
-    'history',
-    'money',
-    'movie',
-    'music',
-    'science',
-    'sport',
-    'travel'
+    'Animal',
+    'Career',
+    'Celebrity',
+    'Dev',
+    'Fashion',
+    'Food',
+    'History',
+    'Money',
+    'Movie',
+    'Music',
+    'Science',
+    'Sport',
+    'Travel'
   ];
   res
     .status(200)
